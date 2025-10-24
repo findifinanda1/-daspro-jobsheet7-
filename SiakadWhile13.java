@@ -4,6 +4,7 @@ public class SiakadWhile13 {
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int nilai = 0, jml = 0, i = 0;
+    int bagus, pertahankanNilainya;
     System.out.print("Masukkan jumlah mahasiswa: ");
     jml = sc.nextInt();
 
@@ -16,7 +17,7 @@ public static void main(String[] args){
             continue;
         }
         if (nilai > 80 && nilai <= 100) {
-            System.out.println("Nilai mahasiswa ke-" + (i + 1) + "adalah A");
+            System.out.println("Nilai mahasiswa ke-" + (i + 1) + "adalah A Bagus, pertahankan nilainya");
         } else if (nilai > 73 && nilai <= 80) {
             System.out.println("Nilai Mahasiswa k-" + (i + 1) + "adalah B+");
         } else if (nilai > 65 && nilai <= 73 ) {
